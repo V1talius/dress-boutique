@@ -1,0 +1,15 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #4C4D4F;
+  background-color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  color: #222222; }
+
+/*# sourceMappingURL=style.css.map */
