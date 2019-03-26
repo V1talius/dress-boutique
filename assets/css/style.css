@@ -12,4 +12,47 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
   color: #222222; }
 
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  ul a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.02em;
+    color: #222222; }
+    ul a:hover {
+      color: #E2BCAF;
+      text-decoration: none; }
+
+.main__header {
+  padding: 40px 25px 40px;
+  display: flex;
+  justify-content: space-between; }
+  .main__header .menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .main__header .menu ul li {
+      margin-right: 20px; }
+  .main__header .header-info {
+    display: flex;
+    align-items: flex-end; }
+    .main__header .header-info .user {
+      margin-right: 30px; }
+      .main__header .header-info .user a {
+        margin-left: -4px; }
+      .main__header .header-info .user .link:after {
+        content: "/"; }
+    .main__header .header-info .icons i {
+      margin-right: 5px;
+      font-size: 25px;
+      line-height: normal;
+      letter-spacing: 0.23em;
+      color: #222222; }
+
 /*# sourceMappingURL=style.css.map */
