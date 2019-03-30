@@ -37,7 +37,7 @@ ul {
       text-decoration: none; }
 
 .main__header {
-  padding: 40px 25px 40px;
+  padding: 40px 30px 40px;
   display: flex;
   justify-content: space-between; }
   .main__header .menu ul {
@@ -90,14 +90,12 @@ ul {
       margin-left: 65px; }
 
 .section-3 {
-  padding: 50px 0px 50px; }
+  padding: 50px 30px 50px; }
   .section-3 .section-block {
     display: flex;
-    justify-content: center;
-    margin-left: 23%;
-    margin-right: 20%; }
+    justify-content: center; }
     .section-3 .section-block .proposal {
-      margin-left: 34px;
+      margin-left: 100px;
       padding-top: 40px; }
       .section-3 .section-block .proposal span {
         font-weight: 500;
@@ -107,8 +105,10 @@ ul {
         text-transform: uppercase;
         color: #E2BCAF; }
       .section-3 .section-block .proposal h2 {
-        margin: 25px 30px 30px 0px; }
+        margin: 25px 30px 30px 0px;
+        padding-right: 50%; }
       .section-3 .section-block .proposal p {
+        padding-right: 40%;
         margin-left: 70px;
         font-weight: 500;
         font-size: 14px;
@@ -118,19 +118,50 @@ ul {
       .section-3 .section-block .proposal .statistic {
         margin-left: 70px;
         display: flex; }
-        .section-3 .section-block .proposal .statistic__inner .number {
-          font-family: Oswald;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 36px;
-          line-height: 48px;
-          letter-spacing: 0.2em;
-          text-transform: uppercase;
-          color: #D2DCE6; }
-        .section-3 .section-block .proposal .statistic__inner span {
-          font-weight: 300;
-          font-size: 14px;
-          line-height: 29px;
-          color: #4C4D4F; }
+        .section-3 .section-block .proposal .statistic__inner {
+          margin-right: 100px; }
+          .section-3 .section-block .proposal .statistic__inner .number {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #D2DCE6;
+            margin-left: 6px; }
+          .section-3 .section-block .proposal .statistic__inner p {
+            padding: 0px;
+            margin: 0px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 29px;
+            letter-spacing: 0.05em;
+            color: #4C4D4F; }
+
+.section-7 {
+  padding: 100px 30px; }
+  .section-7 .title span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #E2BCAF;
+    margin-bottom: 40px; }
+  .section-7 .brends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .section-7 .brends .title {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .section-7 .brends__inner {
+      display: flex;
+      align-items: center; }
+      .section-7 .brends__inner .logo {
+        margin: 0px 85px; }
 
 /*# sourceMappingURL=style.css.map */

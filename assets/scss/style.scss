@@ -45,7 +45,7 @@ ul {
 }
 
 .main__header {
-	padding: 40px 25px 40px;
+	padding: 40px 30px 40px;
 	display: flex;
 	justify-content: space-between;
 
@@ -137,16 +137,14 @@ ul {
 }
 
 .section-3 {
-	padding: 50px 0px 50px;
+	padding: 50px 30px 50px;
 
 	.section-block {
 		display: flex;
     	justify-content: center;
-    	margin-left: 23%;
-    	margin-right: 20%;
-
+    	
     	.proposal {
-    		margin-left: 34px;
+    		margin-left: 100px;
     		padding-top: 40px;
 
     		span {
@@ -160,8 +158,11 @@ ul {
 
 			h2 {
 				margin: 25px 30px 30px 0px;
+				padding-right: 50%;
 			}
+
 			p {
+				padding-right: 40%;
 				margin-left: 70px;
 				font-weight: 500;
 				font-size: 14px;
@@ -174,6 +175,8 @@ ul {
 				display: flex;
 
 				&__inner {
+					margin-right: 100px;
+
 					.number {
 						font-family: Oswald;
 						font-style: normal;
@@ -183,11 +186,16 @@ ul {
 						letter-spacing: 0.2em;
 						text-transform: uppercase;
 						color: #D2DCE6;
+						margin-left: 6px;
+
 					}
-					span {
-						font-weight: 300;
+					p {
+						padding: 0px;
+						margin: 0px;
+						font-weight: 500;
 						font-size: 14px;
 						line-height: 29px;
+						letter-spacing: 0.05em;
 						color: #4C4D4F;
 					}
 				}
@@ -196,5 +204,45 @@ ul {
     	}
 
 	}
+
+}
+.section-7 {
+	padding: 100px 30px;
+
+	.title {
+
+		span {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: normal;
+			letter-spacing: 0.4em;
+			text-transform: uppercase;
+			color: #E2BCAF;
+			margin-bottom: 40px;
+		}
+	}
+	
+	.brends {
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    flex-direction: column;
+		
+		.title {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+
+		}
+		&__inner {
+			display: flex;
+    		align-items: center;
+
+    		.logo {
+    			margin: 0px 85px;
+    		}
+		}
+	}
+
 
 }
