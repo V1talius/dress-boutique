@@ -65,6 +65,75 @@ ul {
       letter-spacing: 0.23em;
       color: #222222; }
 
+.main__footer h3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 15px; }
+.main__footer .footer__inner {
+  background: #222222;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .main__footer .footer__inner .link {
+    margin: 0px 100px; }
+    .main__footer .footer__inner .link__inner ul {
+      display: flex;
+      flex-direction: column; }
+      .main__footer .footer__inner .link__inner ul li {
+        padding-bottom: 10px; }
+        .main__footer .footer__inner .link__inner ul li a {
+          color: #999999; }
+          .main__footer .footer__inner .link__inner ul li a:hover {
+            color: #E2BCAF; }
+  .main__footer .footer__inner .contacts {
+    margin-left: 100px; }
+    .main__footer .footer__inner .contacts__inner {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 45px; }
+      .main__footer .footer__inner .contacts__inner span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 29px;
+        letter-spacing: 0.02em;
+        color: #999999; }
+    .main__footer .footer__inner .contacts .email-send a {
+      color: #FFFFFF; }
+  .main__footer .footer__inner .newsletters {
+    margin: 0px 100px 0px 200px; }
+    .main__footer .footer__inner .newsletters p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 29px;
+      letter-spacing: 0.05em;
+      color: #999999;
+      margin-bottom: 25px; }
+    .main__footer .footer__inner .newsletters #appointment-form input[type="email"] {
+      background: rgba(255, 255, 255, 0.1); }
+    .main__footer .footer__inner .newsletters #appointment-form button {
+      background: #E2BCAF;
+      border-radius: 5px;
+      padding: 0px 12px 0px; }
+      .main__footer .footer__inner .newsletters #appointment-form button i {
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF; }
+.main__footer .footer__bootom {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .main__footer .footer__bootom .social {
+    margin-bottom: 25px; }
+    .main__footer .footer__bootom .social i {
+      margin-right: 15px; }
+
 .section-2 {
   padding: 50px 0px 50px; }
   .section-2 .proposal {

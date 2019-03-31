@@ -98,6 +98,131 @@ ul {
 		}
 	}
 }
+.main__footer {
+	
+
+	h3 {
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.4em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		padding-bottom: 15px;
+	}
+
+	.footer__inner {
+		background: #222222;
+		padding: 80px 0px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.link {
+			margin: 0px 100px;
+
+			&__inner {
+				
+				ul {
+					display: flex;
+					flex-direction: column;
+
+					li {
+
+						padding-bottom: 10px;
+
+						a {
+							color: #999999;
+
+							&:hover {
+								color: #E2BCAF;
+							}
+						}
+					}
+					
+				}
+			}
+		}
+
+		.contacts {
+			margin-left: 100px;
+
+			&__inner {
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 45px;
+
+				span {
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 29px;
+					letter-spacing: 0.02em;
+					color: #999999;
+				}
+			}
+			.email-send {
+				a {
+					color: #FFFFFF;
+				}
+			}
+		}
+
+		.newsletters {
+			margin: 0px 100px 0px 200px;
+
+			p {
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 29px;
+				letter-spacing: 0.05em;
+				color: #999999;
+				margin-bottom: 25px;
+			}
+
+			#appointment-form {
+
+				input[type="email"] {
+					background: rgba(255, 255, 255, 0.1);
+					
+				}
+				
+				button {
+					background: #E2BCAF;
+					border-radius: 5px;
+					padding: 0px 12px 0px;
+
+					i {
+						font-size: 18px;
+						line-height: 27px;
+						color: #FFFFFF;
+					}
+				}
+			} 
+
+			
+
+
+		}
+	}
+
+	.footer__bootom {
+		padding: 40px 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		.social {
+			margin-bottom: 25px;
+
+			i {
+				margin-right: 15px;
+			}
+		}
+	}
+
+
+}
 
 .section-2 {
 	padding: 50px 0px 50px;
