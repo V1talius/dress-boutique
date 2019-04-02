@@ -113,16 +113,20 @@ ul {
       letter-spacing: 0.05em;
       color: #999999;
       margin-bottom: 25px; }
-    .main__footer .footer__inner .newsletters #appointment-form input[type="email"] {
-      background: rgba(255, 255, 255, 0.1); }
-    .main__footer .footer__inner .newsletters #appointment-form button {
+    .main__footer .footer__inner .newsletters #appointment-form input[type="text"] {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 5px 20px 5px 10px;
+      border: none; }
+    .main__footer .footer__inner .newsletters #appointment-form input[type="submit"] {
       background: #E2BCAF;
-      border-radius: 5px;
-      padding: 0px 12px 0px; }
-      .main__footer .footer__inner .newsletters #appointment-form button i {
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF; }
+      border: none;
+      padding: 10px 20px 11px 20px;
+      font-family: Oswald;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
 .main__footer .footer__bootom {
   padding: 40px 0px;
   display: flex;
@@ -207,6 +211,22 @@ ul {
             line-height: 29px;
             letter-spacing: 0.05em;
             color: #4C4D4F; }
+
+.section-4 {
+  margin: 50px 30px; }
+  .section-4 .grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "image-1 image-2 image-4 " "image-1  image-3  image-4 "; }
+  .section-4 .image-1 {
+    grid-area: image-1; }
+  .section-4 .image-2 {
+    grid-area: image-2; }
+  .section-4 .image-3 {
+    grid-area: image-3; }
+  .section-4 .image-4 {
+    grid-area: image-4; }
 
 .section-7 {
   padding: 100px 30px; }

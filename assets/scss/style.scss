@@ -181,21 +181,25 @@ ul {
 
 			#appointment-form {
 
-				input[type="email"] {
+				input[type="text"] {
 					background: rgba(255, 255, 255, 0.1);
-					
-				}
-				
-				button {
-					background: #E2BCAF;
-					border-radius: 5px;
-					padding: 0px 12px 0px;
+					padding: 5px 20px 5px 10px;
+					border: none;
 
-					i {
-						font-size: 18px;
-						line-height: 27px;
-						color: #FFFFFF;
-					}
+				}
+			
+				
+				input[type="submit"] {
+					background: #E2BCAF;
+					border: none;
+					padding: 10px 20px 11px 20px;
+					font-family: Oswald;
+					font-size: 12px;
+					line-height: 16px;
+					letter-spacing: 0.4em;
+					text-transform: uppercase;
+					color: #FFFFFF;
+
 				}
 			} 
 
@@ -331,6 +335,26 @@ ul {
 	}
 
 }
+.section-4 {
+	margin: 50px 30px;
+
+	.grid-container {
+		
+		display: grid;
+		grid-template-columns: 1.5fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "image-1 image-2 image-4 " "image-1  image-3  image-4 ";
+	}
+
+	.image-1	{ grid-area: image-1; }
+
+	.image-2	{ grid-area: image-2; }
+
+	.image-3	{ grid-area: image-3; }
+
+	.image-4 	{ grid-area: image-4; }
+}
+
 .section-7 {
 	padding: 100px 30px;
 
