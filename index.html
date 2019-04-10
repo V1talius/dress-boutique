@@ -16,6 +16,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+		<link rel="stylesheet" href="./assets/css/lib/slider-pro/slider-pro.min.css"/>
+
 		<link rel="stylesheet" href="./assets/css/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,12 +56,9 @@
 				</div>
 				<div class="header-info">
 					<div class="user">
-						<ul>
-							<li>
-								<a class="link" href="#">Login</a>
-								<a href="#">Register</a>
-							</li>
-						</ul>
+						<a class="login-link" href="#">Login</a>
+						<span>/</span>
+						<a class="register-link" href="#">Register</a>
 					</div>
 					<div class="icons">
 						<div class="icons__item">
@@ -87,6 +86,128 @@
 			</header>
 
 			<div class="main__content">
+
+				<div class="section-1">
+					<div class="slider-pro" id="main-slider">
+						<div class="sp-slides">
+							<!-- Slide 1 -->
+							<div class="sp-slide">
+								<img
+									class="sp-image"
+									src="./assets/images/slider-image-1.png"/>
+								<h2
+									class="sp-layer"
+									data-position="centerRight"
+									data-width="70%"
+									data-vertical="-30%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="0"
+									data-hide-transition="down">
+									new collection of evening dresses
+								</h2>
+								<h3
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="0%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="100"
+									data-hide-transition="down">
+									for any occasion</h3>
+								<button
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="20%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="300"
+									data-hide-transition="down">
+									learn more
+								</button>
+							</div>
+
+							<!-- Slide 2 -->
+							<div class="sp-slide">
+								<img class="sp-image" src="./assets/images/slider-image-2.png"/>
+								<h2
+									class="sp-layer"
+									data-position="centerRight"
+									data-width="70%"
+									data-vertical="-30%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="0"
+									data-hide-transition="down">
+									new collection of evening dresses
+								</h2>
+								<h3
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="0%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="100"
+									data-hide-transition="down">
+									for any occasion</h3>
+								<button
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="20%"
+									data-horizontal="15%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="300"
+									data-hide-transition="down">
+									learn more
+								</button>
+							</div>
+
+							<!-- Slide 3 -->
+							<div class="sp-slide">
+								<img class="sp-image" src="./assets/images/section-3.png"/>
+								<h2
+									class="sp-layer"
+									data-position="centerRight"
+									data-width="70%"
+									data-vertical="-30%"
+									data-horizontal="10%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="0"
+									data-hide-transition="down">
+									new collection of evening dresses
+								</h2>
+								<h3
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="0%"
+									data-horizontal="10%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="100"
+									data-hide-transition="down">
+									for any occasion</h3>
+								<button
+									class="sp-layer"
+									data-position="centerRight"
+									data-vertical="20%"
+									data-horizontal="10%"
+									data-show-transition="up"
+									data-show-duration="500"
+									data-show-delay="300"
+									data-hide-transition="down">
+									learn more
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="section-2">
 					<div class="container">
 						<div class="row">
@@ -254,6 +375,22 @@
 			</footer>
 		</div>
 
+		<div class="login-popup">
+			<div class="login-popup__cover"></div>
+			<div class="login-popup__container">
+				<div class="login-popup__inner">
+					<h2>Login Form</h2>
+					<form class="login-popup__form" action="#">
+						<input type="text" name="login" placeholder="Enter Your Login">
+						<input type="password" name="password" placeholder="Enter Your Password">
+						<button>Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="./assets/js/jquery-1.11.0.min.js"></script>
+		<script src="./assets/js/lib/slider-pro/jquery.sliderPro.min.js"></script>
 		<script src="./assets/js/scripts.js"></script>
 	</body>
 </html>
