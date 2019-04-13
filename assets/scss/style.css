@@ -58,10 +58,8 @@ img {
     align-items: flex-end; }
     .main__header .header-info .user {
       margin-right: 30px; }
-      .main__header .header-info .user a {
-        margin-left: -4px; }
-      .main__header .header-info .user .link:after {
-        content: "/"; }
+      .main__header .header-info .user a, .main__header .header-info .user span {
+        color: #222222; }
     .main__header .header-info .icons {
       display: flex;
       justify-content: center;
@@ -145,6 +143,76 @@ img {
     margin-bottom: 25px; }
     .main__footer .footer__bootom .social i {
       margin-right: 15px; }
+
+#main-slider .sp-image-container {
+  padding-right: 30%; }
+  #main-slider .sp-image-container img {
+    height: 100% !important;
+    object-fit: cover; }
+#main-slider .sp-slide h2 {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 80px;
+  text-align: right;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  white-space: normal !important;
+  text-align: right; }
+#main-slider .sp-slide h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 57px;
+  text-align: right;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-align: right; }
+#main-slider .sp-slide button {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  padding: 0 0 10px 0;
+  border: none;
+  background-color: transparent; }
+  #main-slider .sp-slide button:before {
+    width: 100%;
+    height: 3px;
+    background-color: #E2BCAF;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: ''; }
+#main-slider .sp-buttons {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #main-slider .sp-buttons .sp-button {
+    width: 4px;
+    height: 130px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 0;
+    background-color: #E5E5E5; }
+    #main-slider .sp-buttons .sp-button.sp-selected-button {
+      background-color: #E2BCAF; }
+
+.section-1 {
+  margin: 0 20px; }
 
 .section-2 {
   padding: 50px 0px 50px; }
@@ -237,6 +305,14 @@ img {
   .section-4 .image-4 {
     grid-area: image-4; }
 
+.section-6 {
+  background: #F9F9F9; }
+  .section-6 .testimonials__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
 .section-7 {
   padding: 100px 30px; }
   .section-7 .title span {
@@ -261,5 +337,39 @@ img {
       align-items: center; }
       .section-7 .brends__inner .logo {
         margin: 0px 85px; }
+
+.login-popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999;
+  transition: all 0.4s ease; }
+  .login-popup.show-state {
+    opacity: 1;
+    pointer-events: auto; }
+  .login-popup__container {
+    background-color: white;
+    padding: 30px;
+    z-index: 2; }
+  .login-popup__cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; }
+  .login-popup__inner h2 {
+    margin-bottom: 10px; }
+  .login-popup__form {
+    display: flex;
+    flex-direction: column; }
 
 /*# sourceMappingURL=style.css.map */

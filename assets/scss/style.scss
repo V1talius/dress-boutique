@@ -427,6 +427,7 @@ img {
 	}
 
 }
+
 .section-4 {
 	margin: 50px 15px;
 
@@ -454,6 +455,18 @@ img {
 	.image-3 { grid-area: image-3; }
 
 	.image-4 { grid-area: image-4; }
+}
+
+.section-6 {
+	background: #F9F9F9;
+
+	.testimonials__item {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 .section-7 {
@@ -529,6 +542,12 @@ img {
 		left: 0;
 		background-color: rgba( 0, 0, 0, .5);
 		z-index: 1;
+	}
+
+	&__inner {
+		h2 {
+			margin-bottom: 10px;
+		}
 	}
 
 	&__form {

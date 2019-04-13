@@ -33,6 +33,8 @@
 			} );
 		},
 
+		
+
 		loginPopupInit: function() {
 			var $loginLink       = $( '.login-link' ),
 				$loginPopup      = $( '.login-popup' ),
@@ -52,6 +54,8 @@
 		}
 
 	}
+
+
 
 	// Main scripts Initialization
 	dressBoutiqueSite.init();
