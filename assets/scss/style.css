@@ -367,7 +367,7 @@ img {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1; }
   .login-popup__inner h2 {
-    margin-bottom: 10px; }
+    margin-bottom: 50px; }
   .login-popup__form {
     display: flex;
     flex-direction: column; }
