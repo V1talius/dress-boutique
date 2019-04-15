@@ -5,9 +5,21 @@
 	var dressBoutiqueSite = {
 
 		init: function() {
+			dressBoutiqueSite.preloaderInit();
 			dressBoutiqueSite.sliderInit();
 			dressBoutiqueSite.loginPopupInit();
+			dressBoutiqueSite.registerPopupInit();
 			dressBoutiqueSite.testiInit();
+		},
+
+		preloaderInit: function() {
+			$(window).on( 'load', function(){
+				var $loader = $( '.site-preloader' );
+
+				$loader.fadeOut( 500, function() {
+					console.log('loaded');
+				});
+			});
 		},
 
 		sliderInit: function() {
@@ -33,8 +45,6 @@
 			} );
 		},
 
-		
-
 		loginPopupInit: function() {
 			var $loginLink       = $( '.login-link' ),
 				$loginPopup      = $( '.login-popup' ),
@@ -49,13 +59,22 @@
 			} );
 		},
 
+		registerPopupInit: function() {
+
+		},
+
 		testiInit: function() {
-			console.log('testiInit');
+			var testiCarousel1 = new Swiper( '.testimonials-1', {
+				slidesPerView: 1,
+				spaceBetween: 30,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
 		}
 
 	}
-
-
 
 	// Main scripts Initialization
 	dressBoutiqueSite.init();
