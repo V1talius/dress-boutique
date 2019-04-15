@@ -60,7 +60,17 @@
 		},
 
 		registerPopupInit: function() {
+			var $registerLink       = $( '.register-link' ),
+				$registerPopup      = $( '.register-popup' ),
+				$registerPopupCover = $( '.register-popup__cover' );
 
+			$registerLink.on( 'click', function() {
+				$registerPopup.addClass( 'show-state' );
+			} );
+
+			$registerPopupCover.on( 'click', function() {
+				$registerPopup.removeClass( 'show-state' );
+			} );
 		},
 
 		testiInit: function() {
